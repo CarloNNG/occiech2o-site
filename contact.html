@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<link rel="icon" type="image/png" href="favicon.png">
+<head>
+    <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Contact — Occi écH20</title>
+    <meta name="description" content="Contactez Occi écH20 pour audit gratuit, dossier investisseur ou visite pilote." />
+    <style>
+        :root{--bg:#fff;--fg:#071028;--muted:#4a5568;--accent:#0066c2}
+        *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+        .container{max-width:760px;margin:0 auto;padding:1rem}
+        .header{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0;border-bottom:1px solid #e6eef9}
+        nav a{color:var(--fg);text-decoration:none;margin-left:1rem;font-weight:600}
+        form{display:grid;gap:.6rem;margin-top:1rem}
+        input,textarea{padding:.6rem;border:1px solid #e6edf7;border-radius:8px;font-size:1rem}
+        button{background:var(--accent);color:#fff;padding:.6rem .9rem;border-radius:8px;border:0;font-weight:700}
+        .reset{background:#fff;border:2px solid var(--accent);color:var(--accent);padding:.5rem .9rem;border-radius:8px;font-weight:700}
+        .small{color:var(--muted)}
+        .footer{padding:1rem 0;color:var(--muted);font-size:.9rem;border-top:1px solid #e6eef9;margin-top:2rem;text-align:center}
+        .row{display:flex;gap:.6rem;align-items:center}
+        @media(max-width:520px){.row{flex-direction:column;align-items:stretch}}
+    </style>
+</head>
+<body>
+<header class="container header">
+    <div style="font-weight:800;color:var(--accent)">Occi écH20</div>
+    <nav aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="technique.html">Technique</a>
+        <a href="impact.html">Impact</a>
+        <a href="team.html">Équipe</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="container">
+    <h1>Contact</h1>
+    <p class="small">Pour recevoir le dossier investisseur, organiser un audit gratuit ou visiter un site pilote, utilisez ce formulaire.</p>
+
+    <!-- Formulaire local : bouton 'Valider' est de type reset pour effacer les champs -->
+    <form aria-label="Formulaire contact" onsubmit="return false;">
+        <input type="text" name="nom" placeholder="Nom et prénom" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="structure" placeholder="Structure / Exploitation (optionnel)" />
+        <textarea name="message" rows="6" placeholder="Votre message : audit, dossier investisseur, rendez-vous..." required></textarea>
+
+        <div class="row" style="margin-top:.4rem">
+            <!-- Valider : reset les champs -->
+            <button type="reset" class="reset" title="Efface les champs">Valider</button>
+            <a href="index.html" style="margin-left:auto;color:var(--muted);text-decoration:none">Retour accueil</a>
+        </div>
+    </form>
+
+    <section style="margin-top:1rem">
+        <h2>Coordonnées</h2>
+        <p class="small">Email : <a href="mailto:contact@occiech2o.com">contact@occiech2o.com</a></p>
+        <p class="small">Tél. : 06 06 06 31 78 99 48</p>
+        <p class="small">Siège social : Occitanie (adresse sur demande)</p>
+    </section>
+
+    <div class="footer">© 2025 Occi écH20 — Contact</div>
+</main>
+</body>
+</html>

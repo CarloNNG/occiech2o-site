@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+<link rel="icon" type="image/png" href="favicon.png">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Occi écH20</title>
+    <meta name="description" content="Occi écH20 : solutions simples et durables de récupération d'eau de pluie pour maraîchers et particuliers ruraux." />
+    <style>
+        :root{
+            --bg:#ffffff; --fg:#071028; --muted:#4a5568;
+            --accent:#005fb8; --accent-2:#0b74de; --card:#f7fbff;
+        }
+        *{box-sizing:border-box}
+        html,body{height:100%}
+        body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--fg);background:var(--bg);-webkit-font-smoothing:antialiased}
+        .container{max-width:980px;margin:0 auto;padding:1rem}
+        .header{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0;border-bottom:1px solid #e6eef9}
+        .brand{display:flex;align-items:center;gap:.6rem}
+        .logo{
+            width:48px;
+            height:48px;
+            transform: rotate(180deg);
+            transform-origin: center;
+        }
+        nav a{color:var(--fg);text-decoration:none;margin-left:1rem;font-weight:600}
+        .hero{display:grid;grid-template-columns:1fr;gap:1rem;padding:1.25rem 0}
+        h1{
+            font-size:1.7rem;
+            margin:.15rem 0;
+            color: var(--accent); /* bleu */
+            font-weight: 700;
+        }
+        .lead{color:var(--muted);margin:0}
+        .cta{display:inline-block;background:var(--accent);color:#fff;padding:.6rem .9rem;border-radius:8px;text-decoration:none;font-weight:700;margin-top:.75rem}
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+        .card{background:var(--card);padding:1rem;border-radius:10px;border:1px solid #e6f0ff}
+        .small{color:var(--muted);font-size:.95rem}
+        .footer{padding:1rem 0;color:var(--muted);font-size:.9rem;border-top:1px solid #e6eef9;margin-top:2rem;text-align:center}
+        @media(min-width:760px){.hero{grid-template-columns:1fr 360px}nav a{margin-left:1.2rem}}
+        a.cta-outline{border:1px solid var(--accent);color:var(--accent);padding:.5rem .75rem;border-radius:8px;text-decoration:none;font-weight:700}
+    </style>
+</head>
+<body>
+<header class="container header" role="banner">
+    <div class="brand">
+        <svg class="logo" viewBox="0 0 64 64" aria-hidden="true" role="img">
+            <rect rx="12" width="64" height="64" fill="#eaf4ff"/>
+            <path d="M32 12c5.5 0 9 4.3 9 7.8 0 6.2-7.2 10.3-9 10.3s-9-4.1-9-10.3c0-3.5 3.5-7.8 9-7.8z" fill="url(#g)"/>
+            <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0072d6"/><stop offset="1" stop-color="#00a0ff"/></linearGradient></defs>
+        </svg>
+        <div>
+            <div style="font-weight:800;color:var(--accent)">Occi écH20</div>
+            <div class="small">Solutions simples et durables pour l'eau de pluie</div>
+        </div>
+    </div>
+    <nav aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="technique.html">Technique</a>
+        <a href="impact.html">Impact</a>
+        <a href="team.html">Équipe</a>
+        <a href="contact.html" class="cta">Contact</a>
+    </nav>
+</header>
+
+<main class="container" role="main">
+    <section class="hero" aria-labelledby="pitch-title">
+        <div>
+            <h1 id="pitch-title">Sécuriser l'eau des cultures, économiser les ressources</h1>
+            <p class="lead">Occi écH20 installe des systèmes de récupération et de gestion de l'eau de pluie pour maraîchers, agriculteurs et particuliers ruraux : solutions modulaires, installation rapide et maintenance professionnelle.</p>
+            <p class="small" style="margin-top:.6rem">Proposition : eau réutilisée pour WC, jardinage et irrigation. Économies de 30 à 50% sur la facture d'eau et meilleure résilience face aux sécheresses.</p>
+            <p style="margin-top:.8rem">
+                <a href="services.html" class="cta">Nos services</a>
+                <a href="impact.html" class="cta-outline" style="margin-left:.6rem">Impact & mission</a>
+            </p>
+
+            <div class="grid" style="margin-top:1.25rem">
+                <div class="card">
+                    <h3 style="margin:.25rem 0">Valeur pour le client</h3>
+                    <p class="small">Réduction de la dépendance au réseau potable, eau de qualité pour l'irrigation, ROI rapide via économies sur facture.</p>
+                </div>
+                <div class="card">
+                    <h3 style="margin:.25rem 0">Modèle économique</h3>
+                    <p class="small">Vente d'installation + forfaits annuels de maintenance et suivi.</p>
+                </div>
+                <div class="card">
+                    <h3 style="margin:.25rem 0">Demande d'investissement</h3>
+                    <p class="small">Financement recherché pour industrialiser cuves modulaires, logistique et développement du réseau de maintenance.</p>
+                </div>
+            </div>
+        </div>
+
+        <aside class="card" aria-labelledby="invest-title">
+            <h3 id="invest-title" style="color:var(--accent)">Pourquoi investir ?</h3>
+            <ul style="padding-left:1rem;margin:.2rem 0 .6rem">
+                <p class="small"> Investir dans Occi écH₂O, c’est soutenir une solution essentielle face aux défis croissants de la sécheresse et de la gestion de l’eau. Notre système de récupération et de réutilisation de l’eau de pluie offre aux particuliers et aux maraîchers une alternative durable, économique et immédiatement opérationnelle. Grâce à une installation rapide, des matériaux modulaires et un modèle économique basé sur la vente et la maintenance, nous répondons à un besoin concret et urgent : réduire la dépendance à l’eau potable tout en protégeant les ressources naturelles. L’investissement permettra d’accélérer notre déploiement, d’optimiser la logistique, d’améliorer les cuves et les filtres, et de renforcer notre présence dans les zones rurales les plus exposées. Soutenir Occi écH₂O, c’est investir dans une transition écologique utile, mesurable et indispensable.</p>
+                <li class="small"><strong>Traction :</strong> POC réalisés chez maraîchers locaux.</li>
+                <li class="small"><strong>Business model :</strong> installation + abonnements maintenance.</li>
+                <li class="small"><strong>Impact :</strong> économie d'eau & conformité RSE</li>
+            </ul>
+            <p class="small" style="margin-top:.4rem">Contactez-nous pour le dossier financier complet et la visite d'un site pilote.</p>
+            <p style="margin-top:.5rem"><a href="contact.html" class="cta">Demander le dossier</a></p>
+        </aside>
+    </section>
+
+    <section aria-labelledby="why-title">
+        <h2 id="why-title" style="color:var(--accent)">Pourquoi Occi écH20 ?</h2>
+        <p class="small">L'augmentation des épisodes de sécheresse et la hausse des coûts de l'eau rendent indispensables des solutions locales : notre système est simple, adapté aux petites exploitations et rentable.</p>
+    </section>
+
+    <section style="margin-top:1rem" aria-labelledby="metrics-title">
+        <h2 id="metrics-title" style="color:var(--accent)">Indicateurs clés</h2>
+        <div class="grid">
+            <div class="card"><strong>Installation</strong><div class="small">~5 jour pour installation standard</div></div>
+            <div class="card"><strong>Économie d'eau</strong><div class="small">30–50% selon usages</div></div>
+            <div class="card"><strong>Revenu</strong><div class="small">Vente + abonnements maintenance</div></div>
+        </div>
+    </section>
+
+    <div class="footer">© 2025 Occi écH20 — Projet CEV • Conçu par l'équipe (L2 MIASHS / BUT GEA)</div>
+</main>
+</body>
+</html>
